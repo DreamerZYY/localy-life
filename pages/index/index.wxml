@@ -1,0 +1,74 @@
+<swiper class="sliders">
+	<swiper-item>
+		
+		<image src="/assets/images/timg (1).jpg" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="/assets/images/timg (2).jpg" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="/assets/images/timg (4).jpg" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="/assets/images/timg.jpg"/>
+	</swiper-item>
+	<!-- 
+	<swiper-item wx:for={{sliders}} wx:key="index">
+		<navigator url="{{item.link}}" wx:if="{{item.link}}">
+			<image src="{item.image}"/>
+		</navigator>
+		<image wx:else src="{item.image}"/>
+	</swiper-item>
+	 -->
+	
+</swiper>
+
+<view class="grids">
+	<view class="item">
+		<image src="/assets/icons/1.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/2.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/3.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/4.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/5.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/6.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/7.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/8.png" />
+		<text>美食</text>
+	</view>
+	<view class="item">
+		<image src="/assets/icons/9.png" />
+		<text>美食</text>
+	</view>
+</view>
+<!-- <view class="grids">
+	<navigator  class="item"  url="/pages/list/list?cat={{item.id}}" wx:for={{categories}} wx:key='index' >
+		<images src="{{item.icon}}" />
+		<text>{{item.name}}</text>
+	</navigator>
+</view> -->
+
+<view class="links">
+	<image src="/assets/images/timg10.jpg"/>
+	<image src="/assets/images/timg8.jpg"/>
+</view>
